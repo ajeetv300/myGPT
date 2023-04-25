@@ -141,14 +141,14 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-name", type=str, default="facebook/opt-350m")
+    parser.add_argument("--model-name", type=str, default="anon8231489123/vicuna-13b-GPTQ-4bit-128g")
     parser.add_argument("--num-gpus", type=str, default="1")
     parser.add_argument("--device", type=str, choices=["cuda", "cpu"], default="cuda")
     parser.add_argument("--conv-template", type=str, default="v1")
     parser.add_argument("--temperature", type=float, default=0.7)
     parser.add_argument("--max-new-tokens", type=int, default=512)
     parser.add_argument("--debug", action="store_true")
-    parser.add_argument("--wbits", type=int, default = 0)
-    parser.add_argument("--groupsize", type=int, default = 0)
+    parser.add_argument("--wbits", type=int, default = 4)
+    parser.add_argument("--groupsize", type=int, default = 128)
     args = parser.parse_args()
     main(args)
