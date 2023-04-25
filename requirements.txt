@@ -1,0 +1,49 @@
+
+# transformers
+torch
+sentencepiece
+safetensors==0.3.0
+datasets==2.10.1
+sentencepiece
+git+https://github.com/huggingface/transformers
+tokenizers
+ sentencepiece
+ safetensors
+ pydub
+ pathtools
+ ffmpy
+ websockets
+ uc-micro-py
+ svgwrite
+ smmap
+ setproctitle
+ sentry-sdk
+ semantic-version
+ python-multipart
+ orjson
+ multidict
+ markdown2
+ h11
+ frozenlist
+ docker-pycreds
+ async-timeout
+ aiofiles
+ yarl
+ wavedrom
+ uvicorn
+ starlette
+ mdit-py-plugins
+ linkify-it-py
+ huggingface-hub
+ httpcore
+ gitdb
+ aiosignal
+ transformers
+ httpx
+ GitPython
+ fastapi
+ aiohttp
+ wandb
+ gradio
+ accelerate
+ fschat
